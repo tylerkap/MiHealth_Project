@@ -15,14 +15,14 @@ body {
 #index-container {
     width: 100%;
     height: 100vh;
+    background-image: url(Images/moroccan-flower.png);
+    background-repeat: repeat;
 }
 
 #nav-bar-container {
     width: 100%;
-    height: 60px;
-    background-color: rgb(255, 255, 255);
-
-    margin-top: 20px;
+    height: 90px;
+    /* background-color: rgb(255, 255, 255); */
 
     display: flex;
     flex-direction: row;
@@ -80,7 +80,7 @@ ul li a {
 #mainpage-content-container {
     width: 97%;
     height: 500px;
-    margin: 20px;
+    margin: 0px 20px 0px 20px;
     background-color: rgb(216, 216, 216);
 
     display: flex;
